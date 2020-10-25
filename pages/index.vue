@@ -2,9 +2,7 @@
   <div class="container">
     <div>
       <Logo />
-      <h1 class="title">
-        Study-NuxtJS-Basic
-      </h1>
+      <h1 class="title">Study-NuxtJS-Basic</h1>
       <div class="links">
         <a
           href="https://nuxtjs.org/"
@@ -33,7 +31,7 @@ import Vue from 'vue'
 export default Vue.extend({})
 </script>
 
-<style>
+<style lang="scss" scoped>
 .container {
   margin: 0 auto;
   min-height: 100vh;
@@ -41,19 +39,20 @@ export default Vue.extend({})
   justify-content: center;
   align-items: center;
   text-align: center;
+  .NuxtLogo {
+    animation: 3s appear;
+  }
+}
+
+.NuxtLogo {
+  .container & ::v-deep {
+    color: red;
+  }
 }
 
 .title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
+  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
   font-size: 100px;

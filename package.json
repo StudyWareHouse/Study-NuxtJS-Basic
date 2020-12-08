@@ -19,7 +19,7 @@
     "sass-loader": "^10.1.0"
   },
   "devDependencies": {
-    "@nuxt/types": "^2.14.9",
+    "@nuxt/types": "^2.14.10",
     "@nuxt/typescript-build": "^2.0.3",
     "@vue/test-utils": "^1.1.1",
     "babel-core": "7.0.0-bridge.0",

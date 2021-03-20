@@ -11,7 +11,9 @@ const Template = (args, { argTypes }) => ({
   components: { Modal, Button },
   template: `<Modal v-bind="$props">
                 <template v-slot:header>Title</template>
-                Modal Contents
+                <div style="padding:20px 0;display:flex;align-items:center;justify-content:space-between;">
+                    Modal Contents <Button size="small">Q</Button>
+                </div>
                 <template v-slot:footer>
                     <Button>NOTHING</Button>
                 </template>

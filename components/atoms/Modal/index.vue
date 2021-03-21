@@ -15,7 +15,15 @@
 </template>
 
 <script>
-export default {}
+export default {
+  name: 'modal',
+  props: {
+    handleClose: {
+      type: Function,
+      default: () => {},
+    },
+  },
+}
 </script>
 
 <style scoped>

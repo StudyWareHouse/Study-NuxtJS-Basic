@@ -23,7 +23,7 @@
   "devDependencies": {
     "@nuxt/types": "^2.15.3",
     "@nuxt/typescript-build": "^2.1.0",
-    "@storybook/addon-actions": "^6.1.21",
+    "@storybook/addon-actions": "^6.2.1",
     "@storybook/addon-essentials": "^6.1.21",
     "@storybook/addon-links": "^6.1.21",
     "@storybook/vue": "^6.1.21",

@@ -21,7 +21,7 @@
     "sass-loader": "^11.0.1"
   },
   "devDependencies": {
-    "@nuxt/types": "^2.15.3",
+    "@nuxt/types": "^2.15.4",
     "@nuxt/typescript-build": "^2.1.0",
     "@storybook/addon-actions": "^6.1.21",
     "@storybook/addon-essentials": "^6.1.21",

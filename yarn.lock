@@ -12400,9 +12400,9 @@ ts-essentials@^2.0.3:
   version "2.0.12"
   resolved "https://registry.npmjs.org/ts-essentials/-/ts-essentials-2.0.12.tgz"
 
-ts-jest@^26.5.4:
-  version "26.5.4"
-  resolved "https://registry.npmjs.org/ts-jest/-/ts-jest-26.5.4.tgz"
+ts-jest@^26.5.5:
+  version "26.5.5"
+  resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-26.5.5.tgz#e40481b6ee4dd162626ba481a2be05fa57160ea5"
   dependencies:
     bs-logger "0.x"
     buffer-from "1.x"

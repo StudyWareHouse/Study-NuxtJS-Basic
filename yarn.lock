@@ -4487,9 +4487,9 @@ chardet@^0.7.0:
   version "0.7.0"
   resolved "https://registry.npmjs.org/chardet/-/chardet-0.7.0.tgz"
 
-"chokidar@>=2.0.0 <4.0.0", chokidar@^3.4.1, chokidar@^3.4.2:
-  version "3.4.3"
-  resolved "https://registry.npmjs.org/chokidar/-/chokidar-3.4.3.tgz"
+"chokidar@>=3.0.0 <4.0.0", chokidar@^3.4.1, chokidar@^3.4.2, chokidar@^3.5.1:
+  version "3.5.1"
+  resolved "https://registry.npmjs.org/chokidar/-/chokidar-3.5.1.tgz"
   dependencies:
     anymatch "~3.1.1"
     braces "~3.0.2"
@@ -4499,7 +4499,7 @@ chardet@^0.7.0:
     normalize-path "~3.0.0"
     readdirp "~3.5.0"
   optionalDependencies:
-    fsevents "~2.1.2"
+    fsevents "~2.3.1"
 
 chokidar@^2.1.8:
   version "2.1.8"
@@ -4517,20 +4517,6 @@ chokidar@^2.1.8:
     path-is-absolute "^1.0.0"
     readdirp "^2.2.1"
     upath "^1.1.1"
-
-chokidar@^3.5.1:
-  version "3.5.1"
-  resolved "https://registry.npmjs.org/chokidar/-/chokidar-3.5.1.tgz"
-  dependencies:
-    anymatch "~3.1.1"
-    braces "~3.0.2"
-    glob-parent "~5.1.0"
-    is-binary-path "~2.1.0"
-    is-glob "~4.0.1"
-    normalize-path "~3.0.0"
-    readdirp "~3.5.0"
-  optionalDependencies:
-    fsevents "~2.3.1"
 
 chownr@^1.1.1:
   version "1.1.4"
@@ -6343,7 +6329,7 @@ fsevents@^1.2.7:
     bindings "^1.5.0"
     nan "^2.12.1"
 
-fsevents@^2.1.2, fsevents@~2.1.2:
+fsevents@^2.1.2:
   version "2.1.3"
   resolved "https://registry.npmjs.org/fsevents/-/fsevents-2.1.3.tgz"
 
@@ -11362,11 +11348,11 @@ sass-loader@^11.0.1:
     klona "^2.0.4"
     neo-async "^2.6.2"
 
-sass@^1.32.8:
-  version "1.32.8"
-  resolved "https://registry.npmjs.org/sass/-/sass-1.32.8.tgz"
+sass@^1.32.10:
+  version "1.32.10"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.32.10.tgz#d40da4e20031b450359ee1c7e69bc8cc89569241"
   dependencies:
-    chokidar ">=2.0.0 <4.0.0"
+    chokidar ">=3.0.0 <4.0.0"
 
 sax@>=0.6.0, sax@~1.2.4:
   version "1.2.4"
